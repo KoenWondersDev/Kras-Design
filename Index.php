@@ -39,7 +39,7 @@
             <div class="hometext">
                 <br>
                 <h2 class="test">
-                    Welkom bij kras design
+                    Welkom bij Kras-Design
                 </h2>
                 <br>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, rerum. <br></p>
