@@ -1,0 +1,87 @@
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 79.1vh;
+    background-image: url('../img/desktop-3820634_1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.heroimg {
+    flex: 1 1 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.Formcontact {
+    flex: 1 1 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.contacttext {
+    position: absolute;
+    font-size: 3rem;
+    z-index: 1;
+}
+
+.contacttext h2 {
+    font-size: 6rem;
+    font-family: 'Lobster', cursive;
+}
+
+.contacttext p {
+    font-size: 2rem;
+    left: 13%;
+}
+
+.Formcontact h2 {
+    font-size: 3.5rem;
+    margin: 1rem;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+}
+
+.Formcontact label {
+    font-size: 2rem;
+    display: block;
+    padding-bottom: 1rem;
+}
+
+.Formcontact input {
+    display: block;
+    margin: 0.5rem 0rem;
+    padding: 1.2rem 5rem;
+    border: solid black 2px;
+    padding-left: 1rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.Formcontact textarea {
+    display: block;
+    border: solid black 2px;
+    margin: 0.5rem 0rem;
+    padding: 1.2rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.Formcontact button {
+    padding: 0.7rem 2.7rem;
+    background-color: rgba(0, 4, 255, 0.664);
+    font-size: 1.5rem;
+    border: none;
+    margin-bottom: 5rem;
+    border-radius: 100px;
+}

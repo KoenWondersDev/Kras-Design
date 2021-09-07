@@ -1,0 +1,101 @@
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 90vh;
+    background: rgb(0, 212, 255);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 0.1824930655856093) 0%, rgba(255, 255, 255, 1) 50%, rgba(0, 212, 255, 0.1740897042410714) 100%);
+    width: 100%;
+}
+
+.heroimg {
+    flex: 1 1 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.info {
+    flex: 1 1 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.Nieuwesitem {
+    position: absolute;
+    font-size: 3rem;
+    margin-top: -20rem;
+    z-index: 1;
+}
+
+.Nieuwesitem h2 {
+    font-size: 6rem;
+    font-family: 'Lobster', cursive;
+}
+
+.Nieuwesitem p {
+    font-size: 2rem;
+    left: 13%;
+}
+
+.info h2 {
+    font-size: 6rem;
+    font-family: 'Lobster', cursive;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+}
+
+.info h3 {
+    font-size: 3rem;
+}
+
+.info p {
+    font-size: 1.3rem;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-gap: 10px;
+    align-content: center;
+    text-align: left;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.blog img {
+    max-height: 15rem;
+    max-width: 20rem;
+    justify-self: center;
+    border: black solid 2px;
+}
+
+.img1 {
+    grid-column: 1/2;
+}
+
+.img2 {
+    grid-column: 1/2;
+    grid-row: 2;
+}
+
+.img3 {
+    grid-column: 1/2;
+    grid-row: 3;
+}
+
+.img4 {
+    grid-column: 1/2;
+    grid-row: 4;
+}
+
+.post {
+    margin-top: 4%;
+}

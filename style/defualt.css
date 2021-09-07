@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    --header1: calc(2rem + 1vw);
+    --header2: calc(3.5rem + 1vw);
+    --header3: calc(3rem + 1vw);
+    --header4: calc(2.4rem + 1vw);
+    --text: calc(1.5rem + 1vw);
+    --big: calc(6rem + 1vw);
+    --special-color: #906272;
+    --background-color: #414141;
+    --gray-text: #525252;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: none;
+    color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+#Logobrand {
+    height: 70px;
+}
+
+.navlinks .navitem {
+    display: inline-block;
+    padding: 3px 5px;
+}
+
+.navitem a {
+    font-size: 1.5rem;
+    color: #030303;
+    text-decoration: none;
+    padding: 1rem 3rem;
+}
+
+.navitem a:hover {
+    color: #1800f3;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Footer {
+    border-top: 10px solid black;
+    padding-top: 10px;
+    min-height: 10vh;
+    background-color: rgba(0, 0, 0, 0.63);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-content: center;
+}
+
+.copy {
+    grid-column: 1/2;
+    grid-row: 1;
+    align-self: flex-end;
+    margin-bottom: 7.5px;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.copy h4 {
+    font-size: 1.3rem;
+    font-family: 'Lobster', cursive;
+}
+
+.social_icons {
+    grid-column: 4/5;
+    grid-row: 1;
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+}
+
+.social_icons img {
+    filter: invert(1);
+    grid-column: 5/6;
+    grid-row: 1;
+}
+
+.tag {
+    padding: 3px;
+}
+
+.tag1 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.tag2 {
+    margin-bottom: 5px;
+}
+
+.tagname {
+    padding-top: 3.5px;
+    color: whitesmoke;
+}
+
+.footerinfo {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    padding-top: 5px;
+    color: whitesmoke;
+}
+
+.footerkvk {
+    grid-column: 6/7;
+    grid-row: 1;
+    align-self: flex-end;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-family: 'Lobster', cursive;
+}
+
+.togglelang button {
+    padding: 0.7rem 2.7rem;
+    background-color: rgba(0, 4, 255, 0.733);
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 100px;
+    color: whitesmoke;
+}
+
+.togglelang {
+    grid-column: 3/5;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}

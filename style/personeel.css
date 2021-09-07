@@ -1,0 +1,107 @@
+.hero {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgb(0, 212, 255);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 0.1824930655856093) 0%, rgba(255, 255, 255, 1) 50%, rgba(0, 212, 255, 0.1740897042410714) 100%);
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.personeelpic {
+    display: grid;
+    min-height: 90vh;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-bottom: 3rem;
+}
+
+.personeelpic img {
+    max-height: 60rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all 1s cubic-bezier(.79, -0.04, .39, 1.05);
+    z-index: 0;
+}
+
+.personeelpic img:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+    scale: 1.2;
+    z-index: 1;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.pfp_1 {
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+.pfp_2 {
+    grid-column: 4/5;
+    grid-row: 1;
+}
+
+.pfp_3 {
+    grid-column: 6/7;
+    grid-row: 1;
+}
+
+.pfp_4 {
+    grid-column: 8/9;
+    grid-row: 1;
+}
+
+.pfp_5 {
+    grid-column: 3/4;
+    grid-row: 2;
+}
+
+.pfp_6 {
+    grid-column: 5/6;
+    grid-row: 2;
+}
+
+.pfp_7 {
+    grid-column: 7/8;
+    grid-row: 2;
+}
+
+.pft h2 {
+    margin-bottom: 1rem;
+}
+
+.pft {
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.pft_5 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.pft_6 {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.pft_7 {
+    grid-column: 6;
+    grid-row: 2;
+}
